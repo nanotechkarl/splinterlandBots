@@ -21,6 +21,8 @@ Requirements:
 
 How to Use:
 
+    * Download zip file( in code button drop down) and extract file to specific folder
+
     *! IMPORTANT: Make sure to edit the '.env.dist' to '.env' and put credentials(open with notepad and enter username/email, posting key, etc.)
     
     * Navigate to SPLINTERLANDBOTS directory in your terminal/cmd
@@ -32,5 +34,6 @@ How to Use:
     * Use 'ctrl+c' or quit in terminal to stop process
 ######
 
+* This project is in alpha stage. If you encounter a bug, just exit the terminal and chrome and re-run again.
 
 IGN: beggarking
