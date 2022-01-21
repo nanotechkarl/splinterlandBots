@@ -21,7 +21,7 @@ Requirements:
 
 How to Use:
 
-    * Download zip file( in code button drop down) and extract file to specific folder
+    * Download zip file( in code button drop down) and extract file to desired folder
 
     *! IMPORTANT: Make sure to edit the '.env.dist' to '.env' and put credentials(open with notepad and enter username/email, posting key, etc.)
     
