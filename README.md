@@ -12,10 +12,8 @@ Requirements:
 
     * Install Chrome: https://www.google.com/chrome/?brand=BNSD&gclsrc=ds&gclsrc=ds
 
-    * After installing pip. you can install selenium by running 'pip install selenium' in terminal/powershell as admin.  
+    * After installing pip. you can install selenium and env by running 'pip install selenium python-dotenv' in terminal/powershell as admin.  
         https://www.geeksforgeeks.org/how-to-install-selenium-in-python/
-
-    * After installing pip. you can install selenium by running 'pip install python-dotenv' in terminal/powershell as admin.  
 
     * Install choco for Windows: https://chocolatey.org/install
 
