@@ -21,7 +21,7 @@ driver = webdriver.Chrome()
 driver.get('https://splinterlands.com/?p=battle_history')
 
 try:
-    RANGE = int(os.getenv("Battles_To_Surrender"))
+    RANGE = int(os.getenv("Rating_to_stop"))
 except ValueError:
     print('******** Please Enter Valid number in .env then run "python auto-surrender.py" again ********')
     driver.quit()
@@ -52,9 +52,13 @@ webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 goToBattleTab = driver.find_element_by_xpath('//*[@id="menu_item_battle"]/a')
 goToBattleTab.click()
 
+time.sleep(4)
+getRating = driver.find_element_by_class_name('number_text').text
 
 # loop1 here #
-for a in range(RANGE):
+while RANGE < int(getRating.replace(',', '')):
+    print(getRating)
+    
     time.sleep(3)
     battle = driver.find_element_by_xpath('//*[@id="battle_category_btn"]')
     battle.click()
@@ -85,7 +89,9 @@ for a in range(RANGE):
 
     goToBattleTab1 = driver.find_element_by_xpath('//*[@id="menu_item_battle"]/a')
     goToBattleTab1.click()
-    time.sleep(1)
+    time.sleep(4)
+
+    getRating = driver.find_element_by_class_name('number_text').text
 # loop1 ends #
 
 print('*************************DONE BATTLE LOOP*********************************')
