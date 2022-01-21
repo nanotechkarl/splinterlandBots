@@ -1,10 +1,9 @@
-# This is a personal project that I created for free. I created this in a short time and will probably update based on demand.
-
-# Disclaimer: Use at your Own Risk!!!!!!!! I am not liable to any damages or hacks on your account
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+## This is a personal project that I created for free. I created this in a short time and will probably update based on demand.
+## Disclaimer: Use at your Own Risk!!!!!!!! I am not liable to any damages or hacks on your account
 
 ###### Auto Surrender ######
+Description: Tired of wasting time to lower your rank in splinterlands? Use this to automatically surrender your battles.
+
 Requirements:
 
     * Install Python: https://www.python.org/downloads/
