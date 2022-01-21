@@ -21,6 +21,7 @@ Requirements:
     * Install Chromedriver for Windows: choco install chromedriver
 
 How to Use:
+
     *! IMPORTANT: Make sure to edit the '.env.dist' to '.env' and put credentials(open with notepad and enter username/email, posting key, etc.)
     
     * Navigate to SPLINTERLANDBOTS directory in your terminal/cmd
