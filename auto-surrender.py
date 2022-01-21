@@ -46,7 +46,7 @@ if USERNAME and POSTINGKEY:
 
 # force sleep 
 ####### you can costumize time.sleep(10) depending on how long until the announcement tab shows. for this 10 seconds ######## 
-time.sleep(10)
+time.sleep(7)
 webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
 
 goToBattleTab = driver.find_element_by_xpath('//*[@id="menu_item_battle"]/a')
@@ -64,11 +64,11 @@ for a in range(RANGE):
     createTeam.click()
 
     time.sleep(3)
-    summoner = driver.find_element_by_xpath("//*[contains(@id, 'starter-167')]")
+    summoner =driver.find_elements_by_class_name("card")[0]
     summoner.click()
 
     time.sleep(1)
-    monster = driver.find_element_by_xpath("//*[contains(@id, 'starter-157')]")
+    monster = driver.find_elements_by_class_name("card")[0]
     monster.click()
 
     time.sleep(3)
@@ -88,4 +88,4 @@ for a in range(RANGE):
     time.sleep(1)
 # loop1 ends #
 
-print('Done Battle Loop')
+print('*************************DONE BATTLE LOOP*********************************')
