@@ -4,6 +4,7 @@
 
 ###### Auto Surrender ######
 Requirements:
+
     * Install Python: https://www.python.org/downloads/
     
     * Install pip: https://www.liquidweb.com/kb/install-pip-windows/
