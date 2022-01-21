@@ -1,8 +1,9 @@
-# This is a personal project that I created for free. I created this in a short time and will probably update based on demand.
-# Disclaimer: Use at your Own Risk!!!!!!!! I am not liable to any damages or hacks on your account
-
+## This is a personal project that I created for free. I created this in a short time and will probably update based on demand.
+## Disclaimer: Use at your Own Risk!!!!!!!! I am not liable to any damages or hacks on your account
 
 ###### Auto Surrender ######
+Description: Tired of wasting time to lower your rank in splinterlands? Use this to automatically surrender your battles.
+
 Requirements:
 
     * Install Python: https://www.python.org/downloads/
